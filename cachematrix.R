@@ -3,7 +3,8 @@
 #example code from JHU's R programming coursera course, assignment 2. 
 
 
-## Write a short comment describing this function
+# this function takes as input a matrix and returns a list of functions required to make a cached inverse of it.  
+#This list can then be input as an argument of cacheSolve to cache the matrix.  See below for descriptions of each of the 4 functions
 
 makeCacheMatrix <- function(matrix1 = matrix()) {
 	
