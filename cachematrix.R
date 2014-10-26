@@ -4,7 +4,7 @@
 
 
 # this function takes as input a matrix and returns a list of functions required to make a cached inverse of it.  
-#This list can then be input as an argument of cacheSolve to cache the matrix.  See below for descriptions of each of the 4 functions
+#This list can then be input as an argument of cacheSolve to cache the matrix's inverse.  See below for descriptions of each of the 4 functions
 
 makeCacheMatrix <- function(matrix1 = matrix()) {
 	
